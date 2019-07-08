@@ -1,2 +1,2 @@
-# scriptsandstuff.github.io
-Front page of portfolio
+# scriptsandstuff
+[Front page of portfolio](https://scriptsandstuff.github.io/)
