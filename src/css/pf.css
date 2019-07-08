@@ -1,0 +1,104 @@
+body, div {
+ 	margin: 0 auto;
+ 	border: none;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	display: inline-block;
+	/*display: grid;*/
+/*     wrap: wrap; */
+	/*grid-template-columns: 60% 20% 20%; */
+}
+
+ul {
+	padding: 0;
+}
+
+#landing {
+	/*som resolutions for responsive cover*/
+	/*https://css-tricks.com/perfect-full-page-background-image/*/
+	/*margin: auto;*/
+	width: 100%;
+	height: 100vh;
+	color: white;
+	background-image: url("media/s.png");
+	background-size: contain;
+	/*background-repeat: no-repeat;*/
+	/*background-repeat: round;*/
+	background-repeat: repeat-x;
+	background-position: 50% 50%;
+
+}
+
+/*#pf-ul-main, .pf-ul-category {*/
+ul {
+	list-style-type: none;
+	/*list-style: none;*/
+}
+
+#landing > h1 {
+
+	margin-left: 60%;
+	/*float*/
+}
+
+#landing > h1:first-of-type {
+	margin-top: 10vh;
+}
+
+#pf-accordion {
+	/*min-width: 33%;*/
+	/*max-width: 50%;*/
+	width: 45vw;
+	float: middle;
+}
+
+#pf-ul-main > li{
+	float:left;
+	display: inline;
+	width: 50%;
+}
+
+.pf-item {
+	/*width:33%;*/
+	margin-bottom: 2rem;
+}
+.pf-cat-title {
+	text-align: center;
+}
+
+.pf-item-title {
+	font-size: large;
+	width: 100%
+}
+
+.pf-item-description {
+	font-size: 0.8rem;
+	width: 100%
+}
+
+.pf-item-notes {
+	font-size: 0.8rem;
+	font-style: bold;
+	width: 100%
+}
+
+.pf-item-image-container {
+	width: 100%;
+	/*height: 45vh;*/
+	/*height: 75vh;*/
+
+	/*max-width: 45vh;*/
+	max-height: 45vh;
+
+}
+.pf-item-image {
+	/*max-height: 90vh;*/
+	/*max-width: 45vw;*/
+	max-width: 100%;
+	/*max-height: 45vh;*/
+	margin: auto;
+}
+
+.pf-item-link {
+
+}

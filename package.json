@@ -1,0 +1,30 @@
+{
+  "name": "scriptsandstuff.github.io",
+  "version": "1.0.0",
+  "description": "Front page of portfolio",
+  "main": "./src/js/app.js",
+  "scripts": {
+    "test": "testpf",
+    "build": "webpack src/js/app.js dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptsandstuff/scriptsandstuff.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scriptsandstuff/scriptsandstuff.github.io/issues"
+  },
+  "homepage": "https://github.com/scriptsandstuff/scriptsandstuff.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "requirejs": "^2.3.6"
+  }
+}
